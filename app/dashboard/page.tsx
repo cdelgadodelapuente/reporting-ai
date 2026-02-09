@@ -251,7 +251,7 @@ export default async function DashboardPage({
           ) : plan === "free" ? (
             <>
               <div className="mt-2 text-sm text-gray-600">
-                {used} of {limit} reports used. You have {Math.max(0, limit - used)} report remaining this month.
+                {used} of {limit ?? 3} reports used. You have {Math.max(0, (limit ?? 3) - used)} report remaining this month.
               </div>
               <div className="mt-3 h-2 w-full rounded-full bg-gray-100">
                 <div
