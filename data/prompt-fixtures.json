@@ -1,0 +1,487 @@
+{
+  "scenarios": [
+    {
+      "id": "mobile-sprint-42",
+      "project": "Mobile App Redesign",
+      "periodLabel": "Sprint 42 (Feb 1 - Feb 14)",
+      "goal": "Launch new checkout flow to improve conversion",
+      "metrics": {
+        "velocity_completed": 42,
+        "velocity_target": 40,
+        "bugs_found": 3,
+        "goal_status": "ACHIEVED"
+      },
+      "issues": [
+        {
+          "key": "PROJ-101",
+          "summary": "New payment flow with Stripe integration - 40% faster checkout, +15% conversions (early data)",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Sarah"
+        },
+        {
+          "key": "PROJ-102",
+          "summary": "User dashboard redesign - loads 40% faster, NPS +12 points",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Rita"
+        },
+        {
+          "key": "PROJ-103",
+          "summary": "Mobile app performance optimization - load time 3.0s → 1.2s (60% improvement)",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Luis"
+        },
+        {
+          "key": "PROJ-104",
+          "summary": "Critical: Login fails for 15% of users on iOS 16 (2,000 daily users affected)",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Ana"
+        },
+        {
+          "key": "PROJ-105",
+          "summary": "Payment confirmation emails not sending (high priority)",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Pablo"
+        },
+        {
+          "key": "PROJ-106",
+          "summary": "Dashboard crashes on large datasets (medium priority)",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Marco"
+        },
+        {
+          "key": "PROJ-107",
+          "summary": "Upgrade to Node 18 for security patches - resolved 3 CVEs",
+          "status": "Done",
+          "type": "Tech Debt",
+          "assignee": "Sarah"
+        },
+        {
+          "key": "PROJ-108",
+          "summary": "Database query optimization - average query time reduced 40%",
+          "status": "Done",
+          "type": "Tech Debt",
+          "assignee": "Luis"
+        },
+        {
+          "key": "PROJ-109",
+          "summary": "Add integration tests for payment flow",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Rita"
+        },
+        {
+          "key": "PROJ-110",
+          "summary": "Auth module refactor - complexity reduced 40%, removed 2,000 legacy lines",
+          "status": "Done",
+          "type": "Tech Debt",
+          "assignee": "Ana"
+        },
+        {
+          "key": "PROJ-111",
+          "summary": "Analytics dashboard (frontend) - 70% complete, ETA end of sprint",
+          "status": "In Progress",
+          "type": "Story",
+          "assignee": "Mark"
+        },
+        {
+          "key": "PROJ-112",
+          "summary": "Email notification system - 60% complete, delayed to next sprint",
+          "status": "In Progress",
+          "type": "Story",
+          "assignee": "Rita"
+        },
+        {
+          "key": "PROJ-113",
+          "summary": "API rate limiting with Redis - 40% complete",
+          "status": "In Progress",
+          "type": "Task",
+          "assignee": "Pablo"
+        },
+        {
+          "key": "PROJ-114",
+          "summary": "Pricing page A/B test setup - 80% complete",
+          "status": "In Progress",
+          "type": "Task",
+          "assignee": "Marco"
+        },
+        {
+          "key": "PROJ-115",
+          "summary": "User onboarding flow improvements - 50% complete",
+          "status": "In Progress",
+          "type": "Story",
+          "assignee": "Ana"
+        },
+        {
+          "key": "PROJ-116",
+          "summary": "GDPR compliance implementation - blocked by legal review (5 days), may delay EU launch Mar 15 → Mar 22",
+          "status": "Blocked",
+          "type": "Story",
+          "assignee": "Sarah"
+        },
+        {
+          "key": "PROJ-117",
+          "summary": "Slack integration - blocked by Slack API approval (3 days)",
+          "status": "Blocked",
+          "type": "Story",
+          "assignee": "Luis"
+        },
+        {
+          "key": "PROJ-118",
+          "summary": "Dark mode implementation (not started)",
+          "status": "To Do",
+          "type": "Story",
+          "assignee": "Rita"
+        },
+        {
+          "key": "PROJ-119",
+          "summary": "Export data feature (not started)",
+          "status": "To Do",
+          "type": "Story",
+          "assignee": "Marco"
+        },
+        {
+          "key": "PROJ-120",
+          "summary": "Social login (Google/Apple) (not started)",
+          "status": "To Do",
+          "type": "Story",
+          "assignee": "Ana"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-sprint-15",
+      "project": "Enterprise SaaS Platform",
+      "periodLabel": "Sprint 15 (Mar 1 - Mar 14)",
+      "goal": "Improve system stability and enterprise features",
+      "metrics": {
+        "velocity_completed": 48,
+        "velocity_target": 55,
+        "bugs_found": 5,
+        "goal_status": "PARTIALLY_ACHIEVED"
+      },
+      "issues": [
+        {
+          "key": "ENT-201",
+          "summary": "SSO (SAML) support shipped - enterprise login live for 3 pilot customers",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Priya"
+        },
+        {
+          "key": "ENT-202",
+          "summary": "RBAC roles v1 shipped - admin controls for 5 core permissions",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Mateo"
+        },
+        {
+          "key": "ENT-203",
+          "summary": "Reduce API p95 latency from 620ms → 390ms (37% improvement)",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Elena"
+        },
+        {
+          "key": "ENT-204",
+          "summary": "Database failover drills - recovery time cut from 25m → 10m",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Jon"
+        },
+        {
+          "key": "ENT-205",
+          "summary": "Fix intermittent 500s on reporting endpoint (minor bug)",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Alex"
+        },
+        {
+          "key": "ENT-206",
+          "summary": "Fix CSV export timeout for large accounts",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Priya"
+        },
+        {
+          "key": "ENT-207",
+          "summary": "Fix audit log pagination bug",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Mateo"
+        },
+        {
+          "key": "ENT-208",
+          "summary": "Fix UI flicker on admin settings page",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Elena"
+        },
+        {
+          "key": "ENT-209",
+          "summary": "Fix timezone handling in activity reports",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Jon"
+        },
+        {
+          "key": "ENT-210",
+          "summary": "Performance tuning - query caching in analytics service",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Alex"
+        },
+        {
+          "key": "ENT-211",
+          "summary": "Microservices migration - 30% complete (foundation services moved)",
+          "status": "In Progress",
+          "type": "Story",
+          "assignee": "Priya"
+        },
+        {
+          "key": "ENT-212",
+          "summary": "Multi-tenancy isolation improvements - 60% complete",
+          "status": "In Progress",
+          "type": "Story",
+          "assignee": "Mateo"
+        },
+        {
+          "key": "ENT-213",
+          "summary": "Event pipeline refactor - 40% complete",
+          "status": "In Progress",
+          "type": "Task",
+          "assignee": "Elena"
+        },
+        {
+          "key": "ENT-214",
+          "summary": "RBAC v2 delayed - pending legal review for audit requirements",
+          "status": "Blocked",
+          "type": "Story",
+          "assignee": "Jon"
+        },
+        {
+          "key": "ENT-215",
+          "summary": "Vendor integration blocked - waiting on third-party API changes",
+          "status": "Blocked",
+          "type": "Task",
+          "assignee": "Alex"
+        },
+        {
+          "key": "ENT-216",
+          "summary": "Kubernetes upgrade blocked by infra team (maintenance window not scheduled)",
+          "status": "Blocked",
+          "type": "Task",
+          "assignee": "Priya"
+        }
+      ]
+    },
+    {
+      "id": "internal-sprint-8",
+      "project": "Internal Tools",
+      "periodLabel": "Sprint 8 (Apr 1 - Apr 14)",
+      "goal": "Ship 3 quick wins for internal productivity",
+      "metrics": {
+        "velocity_completed": 38,
+        "velocity_target": 35,
+        "bugs_found": 0,
+        "goal_status": "EXCEEDED"
+      },
+      "issues": [
+        {
+          "key": "INT-301",
+          "summary": "One-click deploy button in internal dashboard - saves 5 min per deploy",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Sofia"
+        },
+        {
+          "key": "INT-302",
+          "summary": "Slack alerts for failed jobs - reduces response time by 30%",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Hugo"
+        },
+        {
+          "key": "INT-303",
+          "summary": "Auto-cleanup for temp files - frees ~20GB/week",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Nora"
+        },
+        {
+          "key": "INT-304",
+          "summary": "Internal docs search improvements - 2x faster results",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Sofia"
+        },
+        {
+          "key": "INT-305",
+          "summary": "Dashboard load time optimization - 45% faster",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Hugo"
+        },
+        {
+          "key": "INT-306",
+          "summary": "Jira automation for release notes - saves 1h per release",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Nora"
+        },
+        {
+          "key": "INT-307",
+          "summary": "Bulk user deactivation tool - reduces manual ops work by 70%",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Sofia"
+        },
+        {
+          "key": "INT-308",
+          "summary": "CI pipeline caching - build time 12m → 6m",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Hugo"
+        },
+        {
+          "key": "INT-309",
+          "summary": "Incident response checklist cleanup - simpler playbook",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Nora"
+        },
+        {
+          "key": "INT-310",
+          "summary": "Data backfill automation - removed 2 manual steps",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Sofia"
+        },
+        {
+          "key": "INT-311",
+          "summary": "Weekly KPI auto-email - saves 30 min per week",
+          "status": "In Progress",
+          "type": "Story",
+          "assignee": "Hugo"
+        },
+        {
+          "key": "INT-312",
+          "summary": "Internal dashboard dark mode - finishing today",
+          "status": "In Progress",
+          "type": "Story",
+          "assignee": "Nora"
+        }
+      ]
+    },
+    {
+      "id": "edge-blocked",
+      "project": "Edge Case",
+      "periodLabel": "Sprint Blocked (Apr 15 - Apr 28)",
+      "goal": "Ship Feature X",
+      "metrics": {
+        "velocity_completed": 0,
+        "velocity_target": 30,
+        "bugs_found": 0,
+        "goal_status": "NOT_ACHIEVED"
+      },
+      "issues": [
+        {
+          "key": "EDGE-401",
+          "summary": "Feature X implementation - blocked by external dependency (API contract)",
+          "status": "Blocked",
+          "type": "Story",
+          "assignee": "Team"
+        },
+        {
+          "key": "EDGE-402",
+          "summary": "Data migration prep - blocked by infra approval",
+          "status": "Blocked",
+          "type": "Task",
+          "assignee": "Team"
+        }
+      ]
+    },
+    {
+      "id": "edge-overdeliver",
+      "project": "Edge Case",
+      "periodLabel": "Sprint Overdelivered (May 1 - May 14)",
+      "goal": "Ship 2 features",
+      "metrics": {
+        "velocity_completed": 52,
+        "velocity_target": 35,
+        "bugs_found": 1,
+        "goal_status": "EXCEEDED"
+      },
+      "issues": [
+        {
+          "key": "EDGE-501",
+          "summary": "Feature A shipped - adoption +25% in week one",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Team"
+        },
+        {
+          "key": "EDGE-502",
+          "summary": "Feature B shipped - support tickets down 18%",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Team"
+        },
+        {
+          "key": "EDGE-503",
+          "summary": "Feature C shipped - retention +6%",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Team"
+        },
+        {
+          "key": "EDGE-504",
+          "summary": "Feature D shipped - onboarding completion +12%",
+          "status": "Done",
+          "type": "Story",
+          "assignee": "Team"
+        }
+      ]
+    },
+    {
+      "id": "edge-disaster",
+      "project": "Edge Case",
+      "periodLabel": "Sprint Launch Failure (May 15 - May 28)",
+      "goal": "Production launch",
+      "metrics": {
+        "velocity_completed": 10,
+        "velocity_target": 40,
+        "bugs_found": 8,
+        "goal_status": "FAILED"
+      },
+      "issues": [
+        {
+          "key": "EDGE-601",
+          "summary": "Launch attempt failed - rolled back due to critical auth errors",
+          "status": "Done",
+          "type": "Task",
+          "assignee": "Team"
+        },
+        {
+          "key": "EDGE-602",
+          "summary": "Critical bug: auth loop for 30% of users (rollback required)",
+          "status": "Done",
+          "type": "Bug",
+          "assignee": "Team"
+        },
+        {
+          "key": "EDGE-603",
+          "summary": "Postmortem created - revised launch target in 2 weeks",
+          "status": "In Progress",
+          "type": "Task",
+          "assignee": "Team"
+        }
+      ]
+    }
+  ]
+}
